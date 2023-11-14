@@ -1,0 +1,40 @@
+{
+  "name": "2-truth-1-lie-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:code": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "cypress": "node_modules/.bin/cypress run --quiet",
+    "cypress:gui": "cypress open",
+    "test:parallel": "./cypress/run_parallel.sh"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@tanstack/react-query": "^4.32.6",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "@typescript-eslint/parser": "^6.6.0",
+    "next": "13.3.1",
+    "nextjs-google-analytics": "^2.3.3",
+    "react": "18.2.0",
+    "react-confetti-explosion": "^2.1.2",
+    "react-dom": "18.2.0",
+    "socket.io-client": "^4.6.1",
+    "styled-components": "^5.3.10",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26",
+    "cypress": "^12.12.0",
+    "prettier": "3.0.3"
+  }
+}
