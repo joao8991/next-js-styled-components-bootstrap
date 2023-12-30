@@ -1,10 +1,9 @@
-import StyledComponentsRegistry from '@/lib/registry';
+import StyledComponentsRegistry from "@/lib/registry";
 
-import ClientSideConfigs from '@/config/ClientSideConfigs';
+import ClientSideConfigs from "@/config/ClientSideConfigs";
 
 export const metadata = {
-  description:
-    'page description',
+  description: "page description",
 };
 
 export default function RootLayout({
@@ -14,11 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <StyledComponentsRegistry>
-          <ClientSideConfigs>{children}</ClientSideConfigs>
-        </StyledComponentsRegistry>
-      </body>
+      <StyledComponentsRegistry>
+        <ClientSideConfigs>{children}</ClientSideConfigs>
+      </StyledComponentsRegistry>
     </html>
   );
 }

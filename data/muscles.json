@@ -1,0 +1,15 @@
+[
+  [
+    { "name": "Shoulders" },
+    { "name": "Chest" },
+    { "name": "Arms", "muscles": ["Biceps", "Triceps"] },
+    { "name": "Abs" },
+    { "name": "Legs", "muscles": ["Quads", "Hamstrings", "Calves"] },
+    { "name": "Back", "muscles": ["Lats", "Lower Back"] },
+    { "name": "Forearms" },
+    { "name": "Upper Back", "muscles": ["Trapezius", "Rhomboids"] },
+    { "name": "Core", "muscles": ["Obliques", "Serratus Anterior"] },
+    { "name": "Hips", "muscles": ["Hip Flexors", "Adductors"] },
+    { "name": "Rotator Cuff" }
+  ]
+]

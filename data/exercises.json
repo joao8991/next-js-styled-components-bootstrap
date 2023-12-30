@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Good Morning",
+    "muscles": {
+      "erector spinae": 2,
+      "hamstring": 1,
+      "gluteus maximus": 1
+    }
+  },
+  {
+    "name": "Plank",
+    "muscles": {
+      "erector spinae": 2,
+      "hamstring": 1,
+      "gluteus maximus": 1
+    }
+  },
+  { "name": "Skipping Forward" },
+  { "name": "Skipping Side to Side" },
+  { "name": "Lateral Shuffle" },
+  { "name": "Forward Walking Lunge" },
+  { "name": "Wide Outs" },
+  { "name": "Mountain Climbers - Singles In" },
+  { "name": "Lateral Lunge" },
+  { "name": "Wave Lunge" },
+  { "name": "Prone Plank" },
+  { "name": "Side Plank" },
+  { "name": "Supine Plank" },
+  { "name": "Side Plank" },
+  { "name": "Prone Plank" },
+  { "name": "V-Sit" },
+  { "name": "Superman" },
+  { "name": "V-Sit" },
+  { "name": "Split Squat" },
+  { "name": "Side Walk Squat" },
+  { "name": "Good Morning" },
+  { "name": "Bird Dog" },
+  { "name": "Clams" },
+  { "name": "Reverse Clams" },
+  { "name": "Reverse Air Clams" },
+  { "name": "Lateral Leg Raise" },
+  { "name": "Donkey Kicks" },
+  { "name": "Donkey Whips" },
+  { "name": "Fire Hydrants" },
+  { "name": "Knee Circles Forward" },
+  { "name": "Knee Circles Backward" },
+  { "name": "Lower Body Crawl" },
+  { "name": "Iron Cross" },
+  { "name": "Australian Crawl" },
+  { "name": "Iron Cross" },
+  { "name": "Groiners" },
+  { "name": "Cat-Cow" }
+]

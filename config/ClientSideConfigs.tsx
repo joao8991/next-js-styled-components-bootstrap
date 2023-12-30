@@ -1,13 +1,12 @@
-'use client';
+"use client";
 
-import { addIcons } from '@/lib/Icons';
-import { robotoCondensed } from '@/lib/fonts';
-import { AppGlobalStyles } from '@/styling/global';
-import { theme } from '@/styling/theme';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { addIcons } from "@/lib/Icons";
+import { robotoCondensed } from "@/lib/fonts";
+import { AppGlobalStyles } from "@/styling/global";
+import { theme } from "@/styling/theme";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from "styled-components";
 
 addIcons();
 
@@ -21,10 +20,8 @@ export default function ClientSideConfigs({
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
-            <AppGlobalStyles />
-            <div className={`${robotoCondensed.variable}`}>
-              {children}
-            </div>
+        <AppGlobalStyles />
+        <body className={`${robotoCondensed.variable}`}>{children}</body>
       </ThemeProvider>
     </QueryClientProvider>
   );
